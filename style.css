@@ -82,3 +82,18 @@ em{
 .part_highlight{
 	color:blueviolet;
 }
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin-left:10px;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #000000;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
