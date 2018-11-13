@@ -5,9 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="..\style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel:900|Khula|Barlow" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, user-scalable=no; initial-scale=0.5; maximum-scale=0.5;"/>
+	<script type="text/javascript" src="..\script.js"></script>
 </head>
 <body>
 	<h1>Physiographic Divisions of India</h1>
+	<button onclick="openAll()">Open All</button>
+	<button onclick="closeAll()">Close All</button>
 	<details>
 		<summary><h2>Elevated Peninsular Region</h2></summary>
 		<details>
@@ -986,5 +989,154 @@
 	</details>
 	<details>
 		<summary><h2>Great Indian Plains</h2></summary>
+		<details>
+			<summary><h3>Plains Regions on the Map</h3></summary>
+			<img src="great_plains.jpg" width="500" height="500" style="padding-left: 10px">
+		</details>
+		<details>
+			<summary><h3>Introduction</h3></summary>
+			<ul>
+				<li>Located in Between the northern Himalayas and the Peninsular Plateau region</li>
+				<li>The river basin of Ganges, Indus and Brahmaputra have created this great planar region</li>
+				<li>It is 2400km in length and 240-320km wide</li>
+				<li>Height of this region varies from 3-4m near the bay of Bengal to 215m near Delhi and 235m in Punjab</li>
+			</ul>
+		</details>
+		<details>
+			<summary><h3>Types of Soils</h3></summary>
+			<details>
+				<summary><h4>Bhabar</h4></summary>
+				<ul>
+					<li>A region south of the Lower Himalayas and the Shiwalik Hills</li>
+					<li>It is the alluvial apron of sediments washed down from the Siwaliks along the northern edge of the Indo-Gangetic Plain</li>
+					<li>Covers a majority of Uttarakhand</li>
+				</ul>
+			</details>
+			<details>
+				<summary><h4>Tarai</h4></summary>
+				<ul>
+					<li>A belt of marshy jungle lying between the lower foothills of the Himalayas and the plains</li>
+					<li>Terai spreads from the Yamuna River eastward across Himachal Pradesh, Haryana, Uttarakhand, Uttar Pradesh and Bihar</li>
+				</ul>
+			</details>
+			<details>
+				<summary><h4>Khadar and Bet</h4></summary>
+				<ul>
+					<li>The alluvial soil found in the large part of North India is called Bhangar. This is an old soil which is alluvial in nature</li>
+					<li>It is prone to flooding, very fertile in nature</li>
+					<li>This soil covers majority of the Middle and lower Gangetic plains</li>
+				</ul>
+			</details>
+			<details>
+				<summary><h4>Bhangar</h4></summary>
+				<img src="khadar_bangar.jpg" height="250" width="250" style="border-radius: 5px">
+				<ul>
+					<li>Bangar/Bhangar areas are beyond floodplains that lie more upland, and consist of older alluvial soil. Bangar area are less prone to flooding but are usually more sandy and less fertile as well</li>
+				</ul>
+			</details>
+		</details>
+		<details>
+			<summary><h3>Division of the Plains</h3></summary>
+			<details>
+				<summary><h4>Punjab Plains</h4></summary>
+				<ul>
+					<li>It orginates due to alluvial deposits from the tributaries of Indus, mainly <strong>Satluj</strong></li>
+					<li>Spread across the western bank of the Yamunas, in the states of Punjab, Delhi,  Haryana, parts of Rajasthan and Uttarpradesh</li>
+				</ul>
+			</details>
+			<details>
+				<summary><h4>Gangetic Plains</h4></summary>
+				<details>
+					<summary><h5>Upper Gangetic Plain</h5></summary>
+					<ul>
+						<li>Includes Ganga-Yamuna Doab, Rohilkhand division and parts of the Agra division</li>
+						<li>Yamuna lies to its west and the Shiwaliks to the north</li>
+						<li>Elevation varies from 100-300m</li>
+						<li>Traversed by Kali and Sharda rivers in addition to Ganga and Yamuna</li>
+						<li>A unique feature is the presence of <strong>Bhur</strong> which is an undulating aeolian sandy deposit</li>
+						<li>Above mentioned Bhur is dedicated to the production of Sugercane, rice, wheat, maize, pulses etc.</li>
+					</ul>
+				</details>
+				<details>
+					<summary><h5>Middle Gangetic Plains</h5></summary>
+					<ul>
+						<li>Sprawling over an area of 144000sqkm, includes, Eastern and central UttarPradesh and Bihar upto Muzaffarpur and Patna</li>
+						<li>Bounded by the Shiwaliks along the Indo-Nepal border</li>
+						<li>Homogeneous, thick alluvial deposit is abundant</li>
+						<li>Rivers often change their course in this region</li>
+						<li>Important <strong>Left hand tributaries</strong> of Ganges in the middle Gangetic plains are <strong>Gandak, Kosi</strong></li>
+						<li>Important <strong>Right hand tributary</strong> of Ganges is <strong>Son</strong></li>
+					</ul>
+				</details>
+				<details>
+					<summary><h5>Lower Gangetic Plains</h5></summary>
+					<ul>
+						<li>Extends from Patna in the West, the foor of the Himalays in the north to the Bay of Bangla in the South</li>
+						<li>Bordered by Assam and Bangladesh in the east and Chotonagpur plateau in the West</li>
+						<li>This region can be divided into 4 parts</li>
+					</ul>
+					<details>
+						<summary><h6>Tarai and Dooars</h6></summary>
+						<ul>
+							<li>Eastern part of the plain, drained by <strong>Teesta, Jaldhaka, Sankosh</strong></li>
+							<li><strong>Right side of Teesta</strong> is called <strong>Tarai</strong></li>
+							<li><strong>Left side of Teesta</strong> is called <strong>Dooars</strong></li>
+							<li>Covers the northern region of <strong>Coochbihar, Jalpaiguri</strong> districts of West Bengal</li>
+							<li>Fertility of this plains is comparatively low</li>
+						</ul>
+					</details>
+					<details>
+						<summary><h6>Gangetic Delta</h6></summary>
+						<ul>
+							<li>It is a part of the largest river delta of <strong>Bhagirathi-Hooghly</strong></li>
+							<li><strong>Ganges, Ajay, Damodar, Mayurakkhi</strong> etc drain thsi region</li>
+							<li>Fertility of this region is very high</li>
+							<li>This delta region is classified into three regions</li>
+							<ul>
+								<h6>Dying Delta</h6>
+								<li>This part lies in the district of <strong>Nadia, Murshidabad</strong></li>
+								<li>Rivers of this regions such as <strong>Jalangi, Churni, Ichhamati</strong> are seperated from Ganges and no loger takes part in delta creation</li>
+							</ul>
+							<ul>
+								<h6>Well Formed Delta</h6>
+								<li>This part lies in the district of <strong>Burdwan, Medinipur, Hooghly and Howrah</strong></li>
+								<li>Formed from the alluvial deposits of river from the Chotanagpur plateau</li>
+								<li>The soil here is hard in nature</li>
+							</ul>
+							<ul>
+								<h6>Active Delta</h6>
+								<li>This part lies in the district of <strong>North and South 24 Parganas</strong></li>
+								<li>The world's largest mangrove forest can be seen here</li>
+								<li>The soil of this region is salty</li>
+							</ul>
+						</ul>
+					</details>
+					<details>
+						<summary><h6>The Barendras</h6></summary>
+						<ul>
+							<li>Lies to the South of the Tarai and Dooars plains</li>
+							<li>Extends upto the left bank of the Ganges</li>
+							<li>Soil of the Northern part of this region is relatively fertile</li>
+							<li>Whereas the soil of the sputhern part is lateraite soil and grainy and has less fertility</li>
+						</ul>
+					</details>
+					<details>
+						<summary><h6>The Rahr</h6></summary>
+						<ul>
+							<li>Lies between the delta region and the Chotanagpur plateau</li>
+							<li>Drained by <strong>Damodar, Subarnarekha</strong></li>
+							<li>Soil is laterite in nature and reddish in color, slightly alkaline, and not mush fertile</li>
+						</ul>
+					</details>
+				</details>
+			</details>
+			<details>
+				<summary><h4>Plains of Brahmaputra</h4></summary>
+				<details>
+					<summary><h5>Map</h5></summary>
+					<img src="brahmaputra_plains.jpg" width="500" height="500" style="padding-left: 10px">
+				</details>
+			</details>
+		</details>
 	</details>
 </body>
