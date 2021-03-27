@@ -1,0 +1,14 @@
+git fetch
+git status
+git pull <remote repo>
+git add remote add origin (here origin is the name of the remote repo) <repo_url>
+
+git add.
+git commit -m "message"
+git push origin master
+
+git fetch (to incorporae other branch info)
+git checkout gh-pages
+git rebase master
+git push origin gh-pages
+git checkout master
